@@ -1,52 +1,52 @@
 {
-  "name": "is-camera-on-cli",
-  "version": "1.0.0",
-  "description": "Check if the built-in Mac camera is on",
-  "license": "MIT",
-  "repository": "sindresorhus/is-camera-on-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "is-camera-on": "cli.js"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "macos",
-    "camera",
-    "webcam",
-    "cam",
-    "builtin",
-    "built-in",
-    "internal",
-    "status",
-    "on",
-    "off",
-    "enabled",
-    "disabled",
-    "used",
-    "swift"
-  ],
-  "dependencies": {
-    "is-camera-on": "^1.0.0",
-    "log-symbols": "^1.0.2",
-    "meow": "^3.7.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.6.0",
-    "xo": "*"
-  }
+	"name": "is-camera-on-cli",
+	"version": "1.0.0",
+	"description": "Check if the built-in Mac camera is on",
+	"license": "MIT",
+	"repository": "sindresorhus/is-camera-on-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"is-camera-on": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"macos",
+		"camera",
+		"webcam",
+		"cam",
+		"builtin",
+		"built-in",
+		"internal",
+		"status",
+		"on",
+		"off",
+		"enabled",
+		"disabled",
+		"used",
+		"swift"
+	],
+	"dependencies": {
+		"is-camera-on": "^2.0.0",
+		"log-symbols": "^2.0.0",
+		"meow": "^3.7.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.8.0",
+		"xo": "*"
+	}
 }

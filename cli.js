@@ -12,7 +12,8 @@ meow(`
 	Exits with code 0 if on and 1 if off
 `);
 
-isCameraOn().then(isOn => {
+(async () => {
+	const isOn = await isCameraOn();
 	console.log(isOn ? `${logSymbols.success} Camera is on` : `${logSymbols.error} Camera is off`);
 	process.exit(isOn ? 0 : 1);
-});
+})();
