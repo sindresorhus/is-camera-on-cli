@@ -1,4 +1,4 @@
-# is-camera-on-cli [![Build Status](https://travis-ci.org/sindresorhus/is-camera-on-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/is-camera-on-cli)
+# is-camera-on-cli
 
 > Check if the built-in Mac camera is on
 
