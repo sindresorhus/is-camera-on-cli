@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const isCameraOn = require('is-camera-on');
-const logSymbols = require('log-symbols');
+import process from 'node:process';
+import meow from 'meow';
+import isCameraOn from 'is-camera-on';
+import logSymbols from 'log-symbols';
 
 meow(`
 	Example
@@ -10,10 +10,10 @@ meow(`
 	  ${logSymbols.success} Camera is on
 
 	Exits with code 0 if on and 1 if off
-`);
+`, {
+	importMeta: import.meta,
+});
 
-(async () => {
-	const isOn = await isCameraOn();
-	console.log(isOn ? `${logSymbols.success} Camera is on` : `${logSymbols.error} Camera is off`);
-	process.exit(isOn ? 0 : 1);
-})();
+const isOn = await isCameraOn();
+console.log(isOn ? `${logSymbols.success} Camera is on` : `${logSymbols.error} Camera is off`);
+process.exit(isOn ? 0 : 1);
