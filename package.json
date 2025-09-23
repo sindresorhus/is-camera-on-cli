@@ -1,7 +1,7 @@
 {
 	"name": "is-camera-on-cli",
 	"version": "3.0.0",
-	"description": "Check if the built-in Mac camera is on",
+	"description": "Check if a Mac camera is on",
 	"license": "MIT",
 	"repository": "sindresorhus/is-camera-on-cli",
 	"funding": "https://github.com/sponsors/sindresorhus",
@@ -15,7 +15,7 @@
 		"is-camera-on": "./cli.js"
 	},
 	"engines": {
-		"node": ">=18"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -42,13 +42,13 @@
 		"swift"
 	],
 	"dependencies": {
-		"is-camera-on": "^3.1.0",
-		"log-symbols": "^6.0.0",
-		"meow": "^13.2.0"
+		"is-camera-on": "^4.0.0",
+		"log-symbols": "^7.0.1",
+		"meow": "^14.0.0"
 	},
 	"devDependencies": {
-		"ava": "^6.1.2",
-		"execa": "^8.0.1",
-		"xo": "^0.58.0"
+		"ava": "^6.4.1",
+		"execa": "^9.6.0",
+		"xo": "^1.2.2"
 	}
 }

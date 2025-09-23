@@ -1,6 +1,6 @@
 # is-camera-on-cli
 
-> Check if the built-in Mac camera is on
+> Check if a Mac camera is on
 
 ## Install
 
@@ -8,7 +8,7 @@
 npm install --global is-camera-on-cli
 ```
 
-Requires macOS 10.11 or later.
+Requires macOS 10.15 or later.
 
 ## Usage
 
