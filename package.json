@@ -1,6 +1,6 @@
 {
 	"name": "is-camera-on-cli",
-	"version": "3.0.0",
+	"version": "4.0.0",
 	"description": "Check if a Mac camera is on",
 	"license": "MIT",
 	"repository": "sindresorhus/is-camera-on-cli",
